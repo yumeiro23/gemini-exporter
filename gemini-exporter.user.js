@@ -3,15 +3,14 @@
 // @namespace    https://github.com/yumeiro23/gemini-exporter
 // @version      1.3.8
 // @author       Elior & Gemini
-// @description  Export ChatGPT/Gemini conversations to Markdown with deep history recovery.
-// @description:zh-CN 将 ChatGPT/Gemini 对话导出为 Markdown，支持深度历史回溯。
+// @description  将 ChatGPT 和 Gemini 的对话完整导出为 Markdown 文件，支持自动回溯加载历史记录。
 // @match        *://chatgpt.com/*
 // @match        *://gemini.google.com/*
-// @icon         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0...（保留原图标数据）
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com
 // @grant        GM_addStyle
 // @license      MIT
-// @run-at       document-idle
-// @noframes
+// @downloadURL  https://raw.githubusercontent.com/[Your_GitHub_Username]/gemini-exporter/main/gemini-exporter.user.js
+// @updateURL    https://raw.githubusercontent.com/[Your_GitHub_Username]/gemini-exporter/main/gemini-exporter.user.js
 // ==/UserScript==
 
 /*
