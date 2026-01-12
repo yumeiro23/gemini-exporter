@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Export AI Chat to Markdown (Refined by Gemini)
+// @name         Gemini Exporter
 // @namespace    https://github.com/yumeiro23/gemini-exporter
 // @version      1.3.8
 // @author       Elior & Gemini
