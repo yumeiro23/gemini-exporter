@@ -1,14 +1,24 @@
 // ==UserScript==
-// @name         Export Chat to Markdown (Deep Recovery + List Fix)
-// @namespace    Elior_Chatgpt_XX
+// @name         Export AI Chat to Markdown (Refined by Gemini)
+// @namespace    https://github.com/yumeiro23/gemini-exporter
 // @version      1.3.8
-// @author       Gemini Thought Partner
-// @description  解决列表换行错误、支持有序列表导出、集成 Wheel 加载与标题自动命名。
-// @include      *://chatgpt.com/*
-// @include      *://gemini.google.com/*
-// @run-at       document-end
+// @author       Elior & Gemini
+// @description  Export ChatGPT/Gemini conversations to Markdown with deep history recovery.
+// @description:zh-CN 将 ChatGPT/Gemini 对话导出为 Markdown，支持深度历史回溯。
+// @match        *://chatgpt.com/*
+// @match        *://gemini.google.com/*
+// @icon         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0...（保留原图标数据）
 // @grant        GM_addStyle
+// @license      MIT
+// @run-at       document-idle
+// @noframes
 // ==/UserScript==
+
+/*
+ * This script is a modified version based on the work of Elior.
+ * Original script: https://greasyfork.org/zh-CN/scripts/543471
+ * Modified by Gemini to improve history loading and formatting.
+ */
 
 (function () {
     'use strict';
